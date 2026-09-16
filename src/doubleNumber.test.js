@@ -3,7 +3,7 @@ import { doubleNumber } from "./doubleNumber.js";
 
 describe("doubleNumber", () => {
   test("dubblerar ett positivt tal", () => {
-    expect(doubleNumber(5)).toBe(10);
+    expect(doubleNumber(5)).toBe(999);
   });
 
   test("dubblerar noll", () => {
